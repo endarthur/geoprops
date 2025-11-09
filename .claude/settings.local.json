@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(for dir in . core gpu mesh blocks polygons operations validation utils)",
+      "Bash(do echo \"# GeoProps - $dir module\")",
+      "Bash($dir/__init__.py)",
+      "Bash(done)",
+      "Bash(python -c:*)",
+      "Bash(conda info:*)",
+      "Bash(conda create:*)",
+      "Bash(conda run:*)",
+      "WebSearch",
+      "WebFetch(domain:moderngl.readthedocs.io)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

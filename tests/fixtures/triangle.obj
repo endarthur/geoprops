@@ -1,0 +1,10 @@
+# Simple triangle mesh
+# 3 vertices, 1 face
+
+# Vertices
+v 0.0 0.0 0.0
+v 1.0 0.0 0.0
+v 0.0 1.0 0.0
+
+# Face
+f 1 2 3
